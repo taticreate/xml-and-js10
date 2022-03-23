@@ -37,7 +37,7 @@ const parseURLParams = (value) => {
     }
   });
 
-  server.listen(8888, () => console.log(`Running`));
+  server.listen(8000, () => console.log(`Running`));
 
   module.exports = server;
 
